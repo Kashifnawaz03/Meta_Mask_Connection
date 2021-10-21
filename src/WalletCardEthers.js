@@ -38,7 +38,7 @@ useEffect(() => {
 		setUserBalance(ethers.utils.formatEther(balanceResult));
 	})
 	};
-}, [defaultAccount]);
+},);
 	
 	return (
 		<div className='walletCard'>
